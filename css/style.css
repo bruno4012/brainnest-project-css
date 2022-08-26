@@ -1,7 +1,78 @@
 @font-face {
-    font-family: "roboto";
+    font-family: "roboto-black";
     src: url(../fonts/Roboto/Roboto-Black.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "roboto-regular";
+    src: url(../fonts/Roboto//Roboto-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "roboto-light";
+    src: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
   }
 
   
-  
+  nav, header, footer{
+    width: 100vw;
+    height: auto;
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  nav {
+    justify-content: space-around;
+    padding: 2em;
+
+  }
+  /* logo wrapper  */
+  nav .img-holder{
+    max-width: 20em;
+    width: 100%;
+    height: 4em;
+    background-color: rgb(170, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  /* logo txt  */
+  nav .img-holder a{
+    font-family: roboto-regular, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+  }
+  /* logo img  */
+  nav .img-holder img{
+    width: auto;
+    height: 100%;
+  }
+  /* menu links  */
+  nav .links-nav{
+    max-width: 40em;
+    width: 100%;
+    height: 4em;
+    background-color: rgb(170, 26, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  nav .links-nav li a{
+    font-family: roboto-regular, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color:#e5e7eb ;
+    transition: ease-in .2s;
+  }
+  nav .links-nav li a:hover{
+    color:#b9babd ;
+    transition: ease-out .2s;
+  }
+  /* header  */
+  header{
+    width: 100vw;
+  }
