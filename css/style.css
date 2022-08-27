@@ -291,9 +291,11 @@
   }
   @media only screen and (max-width: 500px){
     header .text-wrap-column h1 {
+      text-align: center;
       font-size: 37px;
     }
     header .text-wrap-column p {
+      text-align: center;
       font-size: 15px;
     }
     header .text-wrap-column {
