@@ -178,7 +178,7 @@
     border-color: #3882f6;
   }
   /* txt under square  */
-  #f-sec  .card-wrapper-column p{
+  #f-sec  .card-wrapper-column figcaption{
     width: 10em;
     text-align: center;
     font-family: roboto-regular, Geneva, Tahoma, sans-serif;
